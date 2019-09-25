@@ -1,0 +1,6 @@
+Usage: pm [action] [targets]
+-1,--on targets      Power on targets
+-0,--off targets     Power off targets
+-c,--cycle targets   Power cycle targets
+-q,--query-all       Query power state of all targets
+-Q,--query targets   Query power state of specific targets

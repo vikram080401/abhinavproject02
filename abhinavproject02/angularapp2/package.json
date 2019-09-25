@@ -1,0 +1,30 @@
+{
+  "name": "Abhinav_assignment2-nodeapp",
+  "version": "1.0.0",
+  "description": "A Hello World HTTP server using Node JS",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vikram080401/AngularApp-2"
+  },
+  "keywords": [
+    "node",
+    "docker",
+    "dockerfile"
+  ],
+  "author": "akv.tcs@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "test": ">=0.6.0"
+  },
+  "dependencies": {
+    "@angular/core": "^8.2.7",
+    "rxjs": "^6.5.3",
+    "tslib": "^1.10.0",
+    "zone.js": "^0.9.1"
+  }
+}

@@ -1,0 +1,20 @@
+version: '3.5'
+
+services:
+
+    angular-service:
+
+      container_name: angularcontainer
+
+      build: ./angularapp2
+
+      volumes:
+
+        - './angularapp2:/usr/src/app' 
+
+      ports: 
+
+        - '8000:8000' # Port mapping
+      #command: bash -c "npm install && ng serve --host 0.0.0.0 --port 4200"
+#     command: bash -c "curl -sL https://deb.nodesource.com/setup_12.x | bash -" && apt-get install -y nodejs && npm install rxjs@6.4.0 && npm install zone.js@0.9.1 && npm install -g @angular/core && npm install -g grunt-cli
+      command: bash -c "curl -sL https://deb.nodesource.com/setup_12.x | bash - && apt-get install -y nodejs && npm install --save tslib@1.9.0 && npm install rxjs@6.5.3 && npm install zone.js@0.9.1 && apt-get update && npm install -g grunt-cli && apt-get update && npm install -g @angular/cli@latest  && npm update --save-dev && npm install @angular/core && npm update && ng update && ng config -g cli.warnings.versionMismatch false && ng serve angularapp2 --host=localhost"
