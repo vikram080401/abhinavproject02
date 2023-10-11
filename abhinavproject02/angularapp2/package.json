@@ -22,7 +22,7 @@
     "test": ">=0.6.0"
   },
   "dependencies": {
-    "@angular/core": "^8.2.7",
+    "@angular/core": "^10.2.5",
     "rxjs": "^6.5.3",
     "tslib": "^1.10.0",
     "zone.js": "^0.9.1"
